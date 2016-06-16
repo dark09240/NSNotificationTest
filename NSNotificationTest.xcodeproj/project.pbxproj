@@ -15,6 +15,7 @@
 		B68E6B1C1D0FE17E00088D5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B68E6B1A1D0FE17E00088D5E /* LaunchScreen.storyboard */; };
 		B68E6B271D0FE17E00088D5E /* NSNotificationTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B68E6B261D0FE17E00088D5E /* NSNotificationTestTests.m */; };
 		B68E6B321D0FE17E00088D5E /* NSNotificationTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B68E6B311D0FE17E00088D5E /* NSNotificationTestUITests.m */; };
+		B68E6B411D0FE19900088D5E /* NSNotificationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = B68E6B401D0FE19900088D5E /* NSNotificationTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		B68E6B2D1D0FE17E00088D5E /* NSNotificationTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSNotificationTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B68E6B311D0FE17E00088D5E /* NSNotificationTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSNotificationTestUITests.m; sourceTree = "<group>"; };
 		B68E6B331D0FE17E00088D5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B68E6B3F1D0FE19900088D5E /* NSNotificationTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSNotificationTest.h; sourceTree = "<group>"; };
+		B68E6B401D0FE19900088D5E /* NSNotificationTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSNotificationTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 		B68E6B0B1D0FE17E00088D5E /* NSNotificationTest */ = {
 			isa = PBXGroup;
 			children = (
+				B68E6B3F1D0FE19900088D5E /* NSNotificationTest.h */,
+				B68E6B401D0FE19900088D5E /* NSNotificationTest.m */,
 				B68E6B0F1D0FE17E00088D5E /* AppDelegate.h */,
 				B68E6B101D0FE17E00088D5E /* AppDelegate.m */,
 				B68E6B121D0FE17E00088D5E /* ViewController.h */,
@@ -273,6 +278,7 @@
 				B68E6B141D0FE17E00088D5E /* ViewController.m in Sources */,
 				B68E6B111D0FE17E00088D5E /* AppDelegate.m in Sources */,
 				B68E6B0E1D0FE17E00088D5E /* main.m in Sources */,
+				B68E6B411D0FE19900088D5E /* NSNotificationTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

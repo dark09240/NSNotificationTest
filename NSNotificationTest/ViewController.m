@@ -7,8 +7,11 @@
 //
 
 #import "ViewController.h"
+#import "NSNotificationTest.h"
 
 @interface ViewController ()
+
+@property (strong, nonatomic) NSNotificationTest *nsnotificationTest;
 
 @end
 
@@ -16,7 +19,21 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    self.nsnotificationTest = [[NSNotificationTest alloc]initWithURL:@"http://api.androidhive.info/feed/feed.json"];
+    
+    [self.nsnotificationTest createNSNotificationWithTarget:self Action:@selector(checkDataWith:)];
+    
+}
+
+- (void)checkDataWith:(NSNotification *)nsnotification {
+
+    NSArray *array = [nsnotification object];
+    
+    NSArray *arrayFeed = [array valueForKey:@"feed"];
+    
+    NSLog(@"%@",arrayFeed);
+
 }
 
 - (void)didReceiveMemoryWarning {
